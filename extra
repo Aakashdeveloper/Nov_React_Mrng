@@ -1,0 +1,64 @@
+Basic JavaScript
+Npm
+React = 3
+React-JWT(Login Logout)-1
+React-GarphQL-1
+Mock API
+json-server
+React_hooks -1
+Basic React Native=1
+React-Saga -1
+React-Redux =2
+Testing
+Github
+Depolyment
+-> MERN
+-> Docker
+-> heroku
+-> Nginx
+
+--------NOT--------------
+API
+GarphQL
+Login/Logout
+
+https://code.visualstudio.com/
+https://nodejs.org/en/
+https://github.com/
+
+React is frontend Lib which help to build
+single page application using component
+
+>>>
+Npm (Node Package Manager)
+<<< 
+
+>>>>>>>>>>>>>>>>>
+json
+JavaScript Object notation
+[
+    {
+        name:'John',
+        rollno:1
+    },
+    {
+        name:'Aakash',
+        rollno:2
+    }
+]
+
+
+package.json
+> Entry point to application
+> Meta Data (Description, version)
+> Scripts (Run, Test, Build)
+> Package 
+
+>>>>>>>>>>>>>>>>>
+Step to generate package.json
+<<<<<<<<<<<<<<<<<<<
+**NodeJs must be installed in system
+> go inside the folder using cmd/terminal
+> npm init
+> Answer all question
+> type "yes"
