@@ -103,3 +103,16 @@ Step to run app
 function
 class
 event
+
+///////
+functional
+> Dumb component
+> Display purpose
+
+class
+> Logical component
+> Api Call
+> We can use for Display as well as logic 
+> heavier than function
+
+hooks
