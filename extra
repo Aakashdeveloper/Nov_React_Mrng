@@ -108,11 +108,22 @@ event
 functional
 > Dumb component
 > Display purpose
+> cannot maintain state
 
 class
 > Logical component
 > Api Call
 > We can use for Display as well as logic 
 > heavier than function
+> can maintain state
 
 hooks
+
+
+////////////////////
+state > it act like a local variable
+props > way to transfer the data
+
+
+component A    ====>       component B 
+state of A     props       State to B
