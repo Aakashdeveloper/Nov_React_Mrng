@@ -127,3 +127,11 @@ props > way to transfer the data
 
 component A    ====>       component B 
 state of A     props       State to B
+
+babel
+
+//////
+pass data from 
+
+parent  ==> child   ( simple props )
+child   ==> parent  ( props with function)

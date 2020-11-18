@@ -18,3 +18,12 @@ function test(a,b){
 
 test(1,2)
 
+
+
+
+function add(a,b){
+    return a+b
+}
+
+
+add(1,2)

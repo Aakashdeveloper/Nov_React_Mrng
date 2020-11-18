@@ -11,13 +11,14 @@ class Header extends Component{
         }
     }
 
-    handleChange=(event)=>{
-        console.log(event.target.value);
-        this.setState({keyword:event.target.value})
+    handleChange=(e)=>{
+        //console.log(e.target.value);
+        this.setState({keyword:e.target.value?e.target.value:'User Text Here'})
+        this.props.userText(e.target.value)
     }
 
     render(){
-        console.log("inside render");
+        //console.log("inside render");
         return(
             <Fragment>
                 <header>
