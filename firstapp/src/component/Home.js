@@ -14,8 +14,12 @@ class Home extends Component {
         }
     }
 
-    filterNews(userInput){
-        console.log("userInput in home>>>",userInput)
+    filterNews=(userInput)=>{
+        console.log("userInput in home>>>",userInput);
+        const Output = this.state.news.filter((data) => {
+            return data.title.toLowerCase().indexOf(userInput.toLowerCase()) > -1
+        })
+        this.setState({filtered:Output})
     }
 
 

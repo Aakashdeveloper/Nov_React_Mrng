@@ -135,3 +135,15 @@ pass data from
 
 parent  ==> child   ( simple props )
 child   ==> parent  ( props with function)
+
+
+npm i react-router-dom 
+<Link>
+
+home
+post > postdetails
+profile
+
+
+www.abc.com/1  > params
+www.abc.com/1?name="john"  > queryparams
