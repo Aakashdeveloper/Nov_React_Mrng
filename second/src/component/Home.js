@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Home = () => {
+const Home = (props) => {
     return(
         <div class="panel panel-primary">
             <div class="panel-heading">Home page</div>

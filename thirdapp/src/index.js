@@ -1,13 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {BrowSerRouter,Route,Link} from 'react-router-dom';
-import Home from './component/Home';
-import Post from './component/Post';
-import Profile from './component/Profile';
+import Routing from './Component/Routing';
 
-ReactDOM.render(
-    <BrowSerRouter>
-        <Route path="/" component={Home}/>
-        <Route path="/"
-    </BrowSerRouter>
-)
+ReactDOM.render(<Routing/>,document.getElementById('root'));
