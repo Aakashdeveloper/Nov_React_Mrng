@@ -70,7 +70,7 @@ class HotelDetails extends Component{
                             </Tabs>
                         </div>
                        &nbsp;
-                        <Link to={`/booking/${hotel._id}`} className="btn btn-success">Book Hotel</Link>
+                        <Link to={`/bookings/${hotel._id}`} className="btn btn-success">Book Hotel</Link>
                       </div>
                   </div>
                </div>
