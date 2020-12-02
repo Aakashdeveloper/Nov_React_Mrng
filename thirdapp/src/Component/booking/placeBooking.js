@@ -70,8 +70,11 @@ class PlaceBooking extends Component{
                             <input type="text" name="phone" value={this.state.phone} className="form-control"
                             onChange={this.handlePhone}/>
                         </div>
+                        <Link to={`/details/${this.props.match.params.id}`} className="btn btn-success">Book Hotel</Link>
+                        &nbsp;
+                        <button className="btn btn-success" onClick={this.handleSubmit}>Submit</button>
                     </div>
-                    <button className="btn btn-success" onClick={this.handleSubmit}>Submit</button>
+                    
                 </div>
             </div>
         )
