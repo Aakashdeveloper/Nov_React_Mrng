@@ -6,18 +6,23 @@ React-JWT(Login Logout)-1
 React-GarphQL-1
 Mock API
 json-server
-React_hooks -1
-Basic React Native=1
 
-React-Saga -1
-React-Redux =2
-Testing
-Github
+React_hooks -1
 Depolyment
 -> MERN
 -> Docker
 -> heroku
 -> Nginx
+
+Basic React Native=1
+Github
+
+React-Redux =2
+Testing
+React-Saga -1
+
+
+
 
 --------NOT--------------
 API

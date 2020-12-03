@@ -15,7 +15,6 @@ class CostFilter extends Component{
         }else{
             ccurl = `${curl}/${TripType}?hcost=${hcost}&lcost=${lcost}`
         }
-
         axios.get(ccurl)
         .then((response) => {this.props.filterpercost(response.data)})
     }
