@@ -30,7 +30,7 @@ class RegisterComponent extends Component{
 
     handleSubmit=()=>{
         console.log(this.state)
-        fetch(burl,{
+        fetch(rurl,{
             method:'POST',
             headers:{
                 'Accept':'application/json',
@@ -38,7 +38,7 @@ class RegisterComponent extends Component{
             },
             body: JSON.stringify(this.state)
         })
-        .then((this.props.history.push('/bookings')))
+        .then((this.props.history.push('/login')))
     }
 
     render(){
