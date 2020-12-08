@@ -54,5 +54,16 @@
       "name": "DEF",
       "locality": "Delhi"
     }
+  ],
+  "users":[
+    {
+      "id": 6,
+      "name": "DEF"
+    },
+    {
+      "id": 7,
+      "name": "DEF",
+      "locality": "Delhi"
+    }
   ]
 }
