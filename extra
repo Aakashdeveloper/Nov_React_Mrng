@@ -14,11 +14,13 @@ Depolyment
 -> Nginx
 ///////////////////////////////
 Basic React Native=1
-Github
 
 React-Redux =2
+
 Testing
+Github
 React-Saga -1
+
 
 --------NOT--------------
 API
@@ -194,3 +196,27 @@ json-server --watch db.json --port 8900
 
 //////////////////
 npm i apollo-boost apollo-graphql graphql react-apollo
+
+structure af application
+testing become easy
+now no need to maintain state in component
+we can pass data from non nested component
+
+npm i react-redux redux redux-logger prop-types
+
+
+
+> home.js we call the action
+> from action folder data is pass to movie_reducer
+> from movie_reducer data pass to store
+> from store with the help to provider pass in main index file
+> from index file to home component
+> in home we have mapstatetoprops which recived data
+> for display we had passed in component>display component
+
+
+////////
+npm i react-redux redux redux-logger prop-types react-router-dom react-slick redux-promise
+
+//testing//
+npm i enzyme enzyme-adapter-react-16 react-addons-test-utils react-test-renderer
