@@ -12,13 +12,12 @@ Depolyment
 -> Docker
 -> heroku
 -> Nginx
-///////////////////////////////
-Basic React Native=1
-
 React-Redux =2
-
 Testing
 Github
+
+///////////////////////////////
+Basic React Native=1
 React-Saga -1
 
 
