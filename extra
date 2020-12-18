@@ -15,8 +15,6 @@ Depolyment
 React-Redux =2
 Testing
 Github
-
-///////////////////////////////
 Basic React Native=1
 React-Saga -1
 
@@ -204,7 +202,6 @@ we can pass data from non nested component
 npm i react-redux redux redux-logger prop-types
 
 
-
 > home.js we call the action
 > from action folder data is pass to movie_reducer
 > from movie_reducer data pass to store
@@ -219,3 +216,21 @@ npm i react-redux redux redux-logger prop-types react-router-dom react-slick red
 
 //testing//
 npm i enzyme enzyme-adapter-react-16 react-addons-test-utils react-test-renderer
+
+///////////////////
+npm i -g create-react-native-app 
+create-react-native-app appname
+
+npm run web
+
+///first time///
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/test-nov.git
+git push -u origin master
+
+///next all time///
+git add .
+git commit -m "first commit"
+git push

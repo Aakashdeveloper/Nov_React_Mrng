@@ -1,12 +1,18 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React,{useState} from 'react';
+import { StyleSheet, Text, View,Button } from 'react-native';
+import ListItem from './component/ListItem'
 
 export default function App() {
-  return (
+  const [OutputText,setText] = useState("Test Button on Native");
+
+  return ( 
     <View style={styles.container}>
       <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <Text>My Native App</Text>
+      <Text>{OutputText}</Text>
+      <Button title="Click Me" onPress={() => setText("Text Changed")}/>
+      <Button title="Revert Me" onPress={() => setText("Test Button on Native")}/>
+      <ListItem/>
     </View>
   );
 }
